@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Agregar Usuario</title>
+<link rel="stylesheet" href="../css/estilosAgreUsuario.css">
+</head>
+<body>
+<div class="contenedor-agregar-usuario">
+  <h2>Agregar usuario</h2>
+  <form action="../php/agregarusuario.php" method="post">
+    <div class="secciones-formulario">
+      <div class="seccion">
+        <!-- <label for="id-usuario">ID de usuario</label> 
+        <input type="text" id="id-usuario" name="id_usuario"> -->
+        
+        <label for="nombre">Nombres</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="apellido">Apellidos</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <label for="genero">Género</label>
+        <select id="genero" name="genero">
+          <option value="">Seleccionar...</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="apartamento">Apartamento</label>
+        <input type="text" id="apartamento" name="apartamento">
+      </div>
+      <div class="seccion imagen">
+        <img src="imagen-usuario.png" alt="Imagen Usuario">
+        <button type="button">Examinar</button>
+      </div>
+    </div>
+    <!-- <div class="seccion">
+      <label for="registro-huella">Registro de huella</label>
+      <input type="text" id="registro-huella" name="registro_huella">
+    </div> -->
+    <div class="acciones-formulario">
+      <button type="submit">Guardar</button>
+      <button type="button">Cancelar</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

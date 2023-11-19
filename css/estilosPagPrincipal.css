@@ -1,0 +1,85 @@
+/* Estilos básicos para la página principal, ajusta los colores según el logo que proporcionaste */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5; /* Ajusta este color según prefieras */
+  }
+  
+  .contenedor-principal {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background-color: #ffffff; /* Fondo blanco para el contenido principal */
+    padding: 20px;
+  }
+  
+  .cabecera-pagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #E0E9EE;
+  }
+  
+  .logo-cabecera {
+    height: 200px; /* Ajusta el tamaño según necesites */
+    margin-right: 20px;
+  }
+    
+  .navegacion-principal ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #333333; /* Un color oscuro para la barra de navegación */
+  }
+  
+  .navegacion-principal ul li {
+    flex: 1;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contenedor-acciones {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  button {
+    background-color: #011C40; /* Azul que podría coincidir con el logo */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Un azul más oscuro para el efecto hover */
+  }
+  
+  .contenedor-tabla {
+    width: 100%;
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Un color claro para las líneas de la tabla */
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #011C40; /* Azul para los encabezados de la tabla */
+    color: white;
+  }
+  
+  /* Ajusta los colores según los tonos exactos del logo para una mejor coherencia */
+  

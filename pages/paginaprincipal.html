@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Página Principal - INTELLIGATE</title>
+  <link rel="stylesheet" href="../css/estilosPagPrincipal.css">
+</head>
+
+<body>
+  <div class="contenedor-principal">
+    <header class="cabecera-pagina">
+      <img src="../img/Intelligate_logo.jpg" alt="Logo de INTELLIGATE" class="logo-cabecera">
+    </header>
+    <nav class="navegacion-principal">
+      <ul>
+        <li>Personal</li>
+        <li>Dispositivo</li>
+        <li>Control de acceso</li>
+        <li>Reportes</li>
+      </ul>
+    </nav>
+    <div class="contenedor-acciones">
+      <button onclick="window.location.href='../pages/agregarusuario.html'">Agregar</button>
+      <button onclick="window.location.href='../pages/editar.html'">Editar</button>
+      <button onclick="window.location.href='../pages/eliminar.html'">Eliminar</button>
+      <button onclick="window.location.href='../pages/buscar.html'">Buscar</button>
+      <button onclick="window.location.href='../php/consultarUsuarios.php'">Consultar</button>
+    </div>
+    <div class="contenedor-tabla">
+      <table>
+        <tr>
+          <th>Placa del vehículo</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>No tarjeta</th>
+          <th>Bloque</th>
+          <th>No de apartamento</th>
+        </tr>
+        <!-- Agrega aquí tus filas de datos, una fila de ejemplo: -->
+        <tr>
+          <td>JF1 ZE5</td>
+          <td>Andres Camilo</td>
+          <td>Vargas Correa</td>
+          <td>9KF0348B2156F913</td>
+          <td>14</td>
+          <td>102</td>
+        </tr>
+        <!-- Continuar con más filas según tus datos -->
+
+    </div>
+  </div>
+</body>
+
+</html>
+
+
